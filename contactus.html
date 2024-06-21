@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *{
+            font-family: Roboto;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0px;
+            background-image: url("https://images.pexels.com/photos/979488/pexels-photo-979488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            /* background-size: cover; */
+            background-position: center;
+            position: relative;
+        }
+        
+        .card{
+            /* border: 2px solid red; */
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            padding: 30px;
+            width: 30%;
+            height: 50%;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background: white;
+
+        }
+        button{
+            align-items: center;
+            display:  block;
+            font-size: 11px;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            background-color: #ff4d4d;
+        }
+        .css-input{
+            width: 100%;
+            border: none;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border-bottom: 1.5px solid #0000003f;
+        }
+        .form-title{
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 0px;
+            
+        }
+        label{
+            font-size: 10px;
+            color: gray ;
+        }
+        .btn-div{
+            display: flex;
+            justify-content: center;         
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="card">
+        <h2 class="form-title">Contact Us</h2>
+        <form class="css-form">
+            <label>NAME</label><br>
+            <input type="text" class="css-input"><br>
+            <label>EMAIL</label><br>
+            <input type="text" class="css-input"><br>
+            <label>MESSAGE</label><br>
+            <textarea rows="4" class="css-input"></textarea><br>
+            <div class="btn-div">
+                <button>Send Your Message</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
